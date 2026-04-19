@@ -1,3 +1,3 @@
 import yfinance as yf
 data = yf.download("AAPL", start="2020-01-01", end="2026-01-01")
-print(data.head(50))
+print(data.head())

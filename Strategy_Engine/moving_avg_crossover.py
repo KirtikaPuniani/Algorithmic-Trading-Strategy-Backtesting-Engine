@@ -5,15 +5,25 @@
 
 import sys
 import os
+import pandas as pd
 
-sys.path.append(os.path.abspath("../Data"))
+data_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "Data_Collection_Module")
+)             #adding data folder to path for imports
+
+sys.path.append(data_path)
 
 from get_stock_data import fetch_data
-import pandas as pd
-data = fetch_data()
+
+data = fetch_data() 
+
+#moving average calculations
 data['MA50'] = data['Close'].rolling(window=50).mean()
 data['MA200'] = data['Close'].rolling(window=200).mean()
 
-data['signal'] = 0
-data['signal'][data['MA50'] > data['MA200']] = 1
-data['signal'][data['MA50'] < data['MA200']] = -1
+data['signal'] = 0    #initialize signal column with 0
+
+data['signal'][data['MA50'] > data['MA200']] = 1       #buy signal when short MA is greater than long MA
+data['signal'][data['MA50'] < data['MA200']] = -1      #sell signal when short MA is less than long MA
+
+print(data.tail())

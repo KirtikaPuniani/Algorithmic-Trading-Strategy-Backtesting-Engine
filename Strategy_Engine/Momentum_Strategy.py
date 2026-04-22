@@ -6,3 +6,13 @@
 #identify overbought or oversold conditions. For example, if the RSI is above 70, it may indicate that the stock is overbought 
 #and could be due for a pullback, while an RSI below 30 may indicate that the stock is oversold and could be due for a rebound.
 # Return = Price(t) / Price(t-n)
+
+import sys
+import os
+import pandas as pd
+
+data_path = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), "..", "Data_Collection_Module")
+)             #adding data folder to path for imports
+
+sys.path.append(data_path)

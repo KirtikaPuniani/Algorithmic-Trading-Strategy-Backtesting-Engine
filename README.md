@@ -1,1 +1,1 @@
-# Algorithmic-Trading-Strategy-Backtesting-Engine
+# Algorithmic Trading Strategy Backtesting Engine

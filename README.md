@@ -9,9 +9,9 @@ This project simulates trading strategies on historical financial data, enabling
 **Features:**
 
 1. Multiple trading strategies 📊:
-   a. Moving Average Crossover
-   b. Mean Reversion
-   c. Momentum Strategy
+   1.       Moving Average Crossover
+   2.       Mean Reversion
+   3.       Momentum Strategy
 3. Realistic portfolio simulation 💼:
         Capital tracking
         Position sizing

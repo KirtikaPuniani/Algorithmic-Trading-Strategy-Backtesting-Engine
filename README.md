@@ -12,19 +12,19 @@ This project simulates trading strategies on historical financial data, enabling
    1.       Moving Average Crossover
    2.       Mean Reversion
    3.       Momentum Strategy
-3. Realistic portfolio simulation 💼:
-        Capital tracking
-        Position sizing
-        Transaction costs & slippage
-4. Performance evaluation 📉:
-        Cumulative Returns
-        Sharpe Ratio
-        Maximum Drawdown
-        Volatility
-5. Backtesting enhancements 🔄:
-        Parameter tuning (grid search)
-        Walk-forward optimization (reduces overfitting)
-6. Visualization 📈:
-        Equity curve
-        Drawdown plots
-        Trade signals overlay
+2. Realistic portfolio simulation 💼:
+   1.       Capital tracking
+   2.       Position sizing
+   3.       Transaction costs & slippage
+3. Performance evaluation 📉:
+   1.       Cumulative Returns
+   2.       Sharpe Ratio
+   3.       Maximum Drawdown
+   4.       Volatility
+4. Backtesting enhancements 🔄:
+   1.       Parameter tuning (grid search)
+   2.       Walk-forward optimization (reduces overfitting)
+5. Visualization 📈:
+   1.       Equity curve
+   2.       Drawdown plots
+   3.       Tade signals overlay

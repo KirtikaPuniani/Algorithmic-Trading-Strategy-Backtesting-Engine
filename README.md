@@ -44,12 +44,3 @@ This project simulates trading strategies on historical financial data, enabling
    1.       Equity curve
    2.       Drawdown plots
    3.       Tade signals overlay
-
-
-
-
-
-
-
-
-

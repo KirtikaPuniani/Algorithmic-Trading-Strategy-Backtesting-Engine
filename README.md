@@ -1,4 +1,5 @@
 # Algorithmic Trading Strategy Backtesting Engine
+(Quantitative Trading Strategy & Backtesting Engine)
 
 A modular Python-based backtesting engine designed to evaluate algorithmic trading strategies using historical market data with realistic execution assumptions.
 

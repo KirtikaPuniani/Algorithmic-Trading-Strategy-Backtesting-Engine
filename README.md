@@ -49,3 +49,18 @@ This project simulates trading strategies on historical financial data, enabling
 | **Mean Reversion** | 11.42% | 16.50% | 0.61 | -19.20% |
 | **Momentum Strategy** | 8.10% | 22.10% | 0.32 | -28.40% |
 | **Walk-Forward (MA Cross)** | 13.85% | 14.20% | 0.89 | -14.10% |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
